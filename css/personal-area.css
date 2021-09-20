@@ -1,0 +1,9 @@
+.personal-area {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.personal-area__wrapper {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+.social-networks {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.social-networks__icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    /* padding: 0; */
+}

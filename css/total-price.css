@@ -1,0 +1,9 @@
+.total-price {
+    color: gray;
+    font-size: 16px;
+}
+.total-price_bold {
+    font-family: "roboto";
+    font-weight: 600;
+
+}

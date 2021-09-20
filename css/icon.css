@@ -1,0 +1,151 @@
+.icon_facebook {
+    display: flex;
+}
+
+.icon_whatsapp {
+    display: flex;
+}
+
+.icon_in {
+    display: flex;
+}
+
+.icon_twitter {
+    display: flex;
+}
+
+.icon_facebook::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url(/img/title/fecebook.png);
+}
+
+.icon_whatsapp::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url(/img/title/whatsapp.png);
+}
+
+.icon_in::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url(/img/title/in.png);
+}
+
+.icon_twitter::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url(/img/title/twitter.png);
+}
+
+.icon_languages {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.icon_languages::before {
+    content: "";
+    width: 27px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-image: url(/img/title/languages.png);
+    margin-right: 9px;
+}
+
+.icon_languages {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    border-right: 1px solid gray;
+    padding: 0px 24px 0px 0px;
+}
+
+.icon_languages::after {
+    content: "";
+    width: 9px;
+    height: 6px;
+    background-repeat: no-repeat;
+    background-image: url(/img/title/arrow-white.png);
+    margin-left: 9px;
+}
+
+.icon_login {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.icon_login::before {
+    content: "";
+    width: 27px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url(/img/title/login.png);
+    margin-left: 24px;
+}
+
+/* navbar */
+.icon__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.icon_favorites {
+    display: flex;
+}
+
+.icon_favorites::before {
+    content: "";
+    width: 20px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-image: url(/img/header/favorites.png);
+}
+
+.icon_lock {
+    display: flex;
+}
+
+.icon_lock::before {
+    content: "";
+    width: 18px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-image: url(/img/header/lock.png);
+}
+/* navbar */
+.icon_phone {
+    display: flex;
+}
+.icon_phone::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-image: url(/img/navbar/phone.png);
+}

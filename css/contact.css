@@ -1,0 +1,15 @@
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.contact_phone {
+    font-family: "Roboto";
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.contact_operating-mode {
+    font-family: "Roboto";
+    font-weight: 400;
+    color: gray;
+}

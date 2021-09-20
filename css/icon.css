@@ -139,3 +139,13 @@
     background-image: url(/img/header/lock.png);
 }
 /* navbar */
+.icon_phone {
+    display: flex;
+}
+.icon_phone::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-image: url(/img/navbar/phone.png);
+}

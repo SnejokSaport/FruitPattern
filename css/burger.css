@@ -1,0 +1,31 @@
+.burger-btn {
+    display: flex;
+    align-items: center;
+    background:#7FAD39;
+    padding: 18px 83px 19px 64px;
+    outline: none;
+    border: none;
+    font-family: "Roboto";
+    font-weight: 800;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing:1px;
+}
+
+.burger-btn::before {
+    content: "";
+    width: 18px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-image: url(/img/navbar/burger.png);
+    margin-right: 23px;
+}
+
+.burger-btn::after {
+    content: "";
+    width: 12px;
+    height: 8px;
+    background-repeat: no-repeat;
+    background-image: url(/img/navbar/arrow-white.png);
+    margin-left: 45px;
+}
